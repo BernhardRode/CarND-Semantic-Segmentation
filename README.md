@@ -1,4 +1,12 @@
 # Semantic Segmentation
+
+This code is copied over from:
+
+https://github.com/ChristianMarzahl/CarND-Semantic-Segmentation
+
+This project was elusive during the nanodegree, so i just wanted to have a working solution "backuped".
+
+
 ### Introduction
 
 The goal of this project was to implement a fully convolutional network in order to classify images from a dashcam into the road and nonroad pixels. I started by converting the provided pre-trained VGG-16 classifier to a fully convolutional network. At the [Udacity Self-Driving Car Nanodegree](https://de.udacity.com/course/self-driving-car-engineer-nanodegree--nd013) the [Kitty Dataset](www.cvlibs.net/datasets/kitti/) was used. Afterwards, I used the [Tiramisu](https://arxiv.org/abs/1611.09326) Architecture on the [CamVid Dataset](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/) and was able to reproduce nearly the accuracy defined in the paper.  
